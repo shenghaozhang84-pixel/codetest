@@ -1,0 +1,27 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Word temporary lock files
+~$*.docx
+~$*.doc
+
+# Local caches
+.cache/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Large or raw data folders
+raw_data/
+large_data/
+
