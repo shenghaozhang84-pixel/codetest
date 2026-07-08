@@ -1,11 +1,20 @@
 # OS and editor noise
 .DS_Store
 Thumbs.db
+desktop.ini
 *.tmp
+*.temp
+*.swp
+*.swo
+.vscode/
+.idea/
 
 # Word temporary lock files
 ~$*.docx
 ~$*.doc
+~$*
+*.wbk
+*.asd
 
 # Local caches
 .cache/
@@ -24,4 +33,5 @@ build/
 # Large or raw data folders
 raw_data/
 large_data/
-
+data/raw/
+data/large/
